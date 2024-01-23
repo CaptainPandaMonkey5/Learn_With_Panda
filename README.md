@@ -1,4 +1,4 @@
-# Learn_With_Panda
+# LEARN with PANDA
 
 this is similar and inspired by cs.fyi but with all the things i am using to learn programming and some other random stuff
 
