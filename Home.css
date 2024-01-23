@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Patrick+Hand+SC&display=swap');
-body {
+* {
   background-color: black;
+  box-sizing: border-box;
 }
 #titleOne {
   text-align: center;
@@ -9,20 +10,8 @@ body {
   font-size: 300%;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: none;
-  text-align: center;
-}
-li {
-  float: center;
+a {
   font-family: 'Patrick Hand SC', cursive;
-}
-
-li a {
   display: inline-block;
   color: grey;
   text-align: center;
@@ -30,32 +19,38 @@ li a {
   text-decoration: none;
   font-size: 150%;
 }
-li a:hover {
+a:hover {
   color: white;
   text-decoration: double;
 }
-#descriptionHome {
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  justify-content: center;
+}
+.topContainer > div {
+  background-color: transparent;
+  margin: 10px;
+  padding: 10px;
+}
+p {
+  font-family: 'Courier Prime', monospace;
   color: white;
   text-align: center;
-  font-family: 'Courier Prime', monospace;
+  border-radius: 30px;
 }
 
-p.sourceName {
-  color: white;
-  font-family: 'Courier Prime', monospace;
+.descriptionContainer {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
 }
 
-a.linkName {
+.bodyContainer {
+  font-family: 'Courier Prime', monospace;
+  display: inline-flexbox;
   color: grey;
-  font-family: 'Courier Prime', monospace;
+  text-align: center;
   text-decoration: none;
-}
-
-a.linkName:hover {
-  color: whitesmoke;
-}
-
-p.datePlace {
-  text-align: right;
-  color: grey;
 }
