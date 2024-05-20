@@ -4,6 +4,6 @@ this is similar and inspired by cs.fyi but with all the things i am using to lea
 
 feel free to help suggest and fix things :>
 
--NOT YET DONE-
+2024 - present
 
 ![homepage_LwP](templates/homepage_LwP.jpg)
